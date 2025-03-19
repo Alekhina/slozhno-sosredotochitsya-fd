@@ -11,8 +11,7 @@
   --path-to-image: url("../images/cover-image-dark.png");
   --page-padding: 10px;
   /* 20px в планшете и десктопе */
-
-  --gap-between-section: 50px; 
+  --gap-between-section: 50px;
   --menu-margin-top: 75px;
   --header-padding-bottom: 66px;
   --title-margin-bottom: 55px;
@@ -62,5 +61,4 @@
   /* --decor-top-position: 10px; */
   /* 20px */
   /* clamp(0.625rem, -0.5478rem + 2.809vw, 1.25rem); */
-
 }

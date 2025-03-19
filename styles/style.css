@@ -67,7 +67,7 @@
   /* align-self: center; */
 }
 
-.decoration_element::after  {
+.decoration_element::after {
   content: "";
   position: absolute;
   right: 8px;
@@ -238,7 +238,7 @@
 @media (width >= 768px) {
   :root {
     --page-padding: 20px;
-    --gap-between-section: 80px; 
+    --gap-between-section: 80px;
     --menu-margin-top: 192px;
     --header-padding-bottom: 183px;
     --title-margin-top: 174.5px;
