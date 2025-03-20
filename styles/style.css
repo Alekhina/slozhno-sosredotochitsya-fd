@@ -22,6 +22,7 @@
   padding-bottom: var(--header-padding-bottom);
   height: 100vh;
   min-height: 668px;
+  padding-inline: var(--page-padding);
 }
 
 .header__theme-menu {
@@ -127,6 +128,7 @@
   flex-direction: column;
   gap: var(--gap-between-section);
   margin-top: var(--main-footer-margin-top);
+  padding-inline: var(--page-padding);
 }
 
 .section {
@@ -187,7 +189,8 @@
 .footer {
   display: block;
   padding: var(--footer-padding-block) 0;
-  margin-top: var(--main-footer-margin-top)
+  margin-top: var(--main-footer-margin-top);
+  padding-inline: var(--page-padding);
 }
 
 .footer_title {
