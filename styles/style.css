@@ -20,6 +20,8 @@
   position: relative;
   display: grid;
   padding-bottom: var(--header-padding-bottom);
+  height: 100%;
+  min-height: 668px;
 }
 
 .header__theme-menu {
@@ -248,6 +250,11 @@
     --decor-top-position: 20px;
   }
 
+  .header {
+    height: 100%;
+    min-height: 1024px;
+  }
+
   .section {
     display: grid;
     gap: 20px;
@@ -333,21 +340,24 @@
 
 @media (width >= 1024px) {
   :root {
+    --gap-between-section: 80px; 
+    --menu-margin-top: 20px;
+    /* --header-padding-bottom: clamp(11.4375rem, -0.5625rem + 18.75vw, 8.4375rem);  */
+    /* --title-margin-bottom: clamp(10.125rem, -1.875rem + 18.75vw, 7.125rem); */
+    /* --title-margin-top: clamp(10.90625rem, 35.9063rem + -39.0625vw, 17.15625rem); */
+    --main-footer-margin-top: 60px;
+    /* --footer-padding-block: clamp(28.875rem, -6.875rem + 55.8594vw, 19.9375rem); */
+    --decor-top-position: 20px; */
+
     --header-padding-bottom: 135px;
     --title-margin-bottom: 114px;
     --footer-padding-block: 319px;
-    --menu-margin-top: 20px;
     --title-margin-top: 274.5px;
+  }
 
-
-    /* --gap-between-section: 80px;  */
-    /* --menu-margin-top: clamp(12rem, -31rem + 67.1875vw, 1.25rem); */
-    /* --header-padding-bottom: clamp(11.4375rem, -0.5625rem + 18.75vw, 8.4375rem);
-    --title-margin-bottom: clamp(10.125rem, -1.875rem + 18.75vw, 7.125rem);
-    --title-margin-top: clamp(10.90625rem, 35.9063rem + -39.0625vw, 17.15625rem);
-    --main-footer-margin-top: 60px;
-    --footer-padding-block: clamp(28.875rem, -6.875rem + 55.8594vw, 19.9375rem);
-    --decor-top-position: 20px; */
+  .header {
+    height: 100%;
+    min-height: 768px;
   }
 
   .header__theme-menu {
