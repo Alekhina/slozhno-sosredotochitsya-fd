@@ -13,7 +13,7 @@
   font-family: var(--text-font);
   font-size: 18px;
   line-height: 23.4px;
-  padding-inline: var(--page-padding);
+  /* padding-inline: var(--page-padding); */
 }
 
 .header {
@@ -340,7 +340,7 @@
 
 @media (width >= 1024px) {
   :root {
-    --gap-between-section: 80px; 
+    --gap-between-section: 80px;
     --menu-margin-top: 20px;
     --main-footer-margin-top: 60px;
     --decor-top-position: 20px;
