@@ -5,12 +5,14 @@
 :root {
   --main-text-color: #F1B2CE;
   --accent-color: #FF0070;
+  --support-color: #FF0070;
+  --accent-text-color: #000028;
+  --outline-button-color: #FF007066;
   --bg-color: #000028;
   --title-color: #DB00FF;
   --text-font: 'IBM Plex Mono';
   --path-to-image: url("../images/cover-image-dark.png");
   --page-padding: 10px;
-  /* 20px в планшете и десктопе */
   --gap-between-section: 50px;
   --menu-margin-top: 75px;
   --header-padding-bottom: 66px;
@@ -18,47 +20,36 @@
   --title-margin-top: 66.5px;
   --main-footer-margin-top: 40px;
   --footer-padding-block: 285px;
-  --decor-top-position: 10px;
-  --decor-right-position: 28px;
+  --decor-top-position: 18px;
+  --decor-right-position: 19px;
+  --rec-right-position: 38px;
+}
 
-  /* --gap-between-section: clamp(3.125rem, -0.3933rem + 8.427vw, 5rem); 
-  --menu-margin-top: clamp(4.6875rem, -9.0337rem + 32.8652vw, 12rem);
-  --header-padding-bottom: clamp(4.125rem, -9.5962rem + 32.8652vw, 11.4375rem);
-  --title-margin-bottom: clamp(3.4375rem, -9.111rem + 30.0562vw, 10.125rem);
-  --title-margin-top: clamp(4.15625rem, -8.5095rem + 30.3371vw, 10.90625rem);
-  --main-footer-margin-top: clamp(2.5rem, 0.1545rem + 5.618vw, 3.75rem);
-  --footer-padding-block: clamp(17.8125rem, -2.9452rem + 49.7191vw, 28.875rem);
-  --decor-top-position: clamp(0.625rem, -0.5478rem + 2.809vw, 1.25rem);
-  --decor-right-position: 28px; */
-  /* 48px */
+@media (width >= 768px) {
+  :root {
+    --page-padding: 20px;
+    --gap-between-section: 80px;
+    --menu-margin-top: 192px;
+    --header-padding-bottom: 183px;
+    --title-margin-top: 174.5px;
+    --title-margin-bottom: 162px;
+    --main-footer-margin-top: 60px;
+    --footer-padding-block: 462px;
+    --decor-top-position: 28px;
+    --decor-right-position: 29px;
+    --rec-right-position: 48px;
+  }
+}
 
-  /* --gap-between-section: 50px;  */
-  /* 80px в планшете и десктопе */
-  /* clamp(3.125rem, -0.3933rem + 8.427vw, 5rem); */
-  /* --menu-margin-top: 75px; */
-  /* 192px в планшете и 20px в десктопе*/
-  /* clamp(4.6875rem, -9.0337rem + 32.8652vw, 12rem);*/
-  /* clamp(12rem, -31rem + 67.1875vw, 1.25rem); */
-  /* --header-padding-bottom: 66px; */
-  /* 183px в планшете и 135px в десктопе */
-  /* clamp(4.125rem, -9.5962rem + 32.8652vw, 11.4375rem); */
-  /* clamp(11.4375rem, -0.5625rem + 18.75vw, 8.4375rem); */
-  /* --title-margin-bottom: 55px; */
-  /* 162px в планшете и 114px в десктопе */
-  /* clamp(3.4375rem, -9.111rem + 30.0562vw, 10.125rem); */
-  /* clamp(10.125rem, -1.875rem + 18.75vw, 7.125rem); */
-  /* --title-margin-top: 66.5px; */
-  /*  174.5px в планшете 274.5px в деск топе */
-  /* clamp(4.15625rem, -8.5095rem + 30.3371vw, 10.90625rem); */
-  /* clamp(10.90625rem, 35.9063rem + -39.0625vw, 17.15625rem); */
-  /* --main-footer-margin-top: 40px; */
-  /* 60px в планшете и десктопе */
-  /* clamp(2.5rem, 0.1545rem + 5.618vw, 3.75rem); */
-  /* --footer-padding-block: 285px; */
-  /* 462px на планшете и 319px на десктопе */
-  /* clamp(17.8125rem, -2.9452rem + 49.7191vw, 28.875rem); */
-  /* clamp(28.875rem, -6.875rem + 55.8594vw, 19.9375rem); */
-  /* --decor-top-position: 10px; */
-  /* 20px */
-  /* clamp(0.625rem, -0.5478rem + 2.809vw, 1.25rem); */
+@media (width >= 1024px) {
+  :root {
+    --gap-between-section: 80px;
+    --menu-margin-top: 20px;
+    --main-footer-margin-top: 60px;
+    --decor-top-position: 20px;
+    --header-padding-bottom: 135px;
+    --title-margin-bottom: 114px;
+    --footer-padding-block: 319px;
+    --title-margin-top: 274.5px;
+  }
 }

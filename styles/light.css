@@ -6,55 +6,44 @@
 
 :root.theme-light {
   --main-text-color: #353430;
+  --support-color: #353430;
+  --outline-button-color: #32312D40;
   --accent-color: #FF8DCB;
+  --accent-text-color: #353430;
   --bg-color: #FFF1F7;
   --title-color: #FFC2E6;
   --path-to-image: url("../images/cover-image-light.png");
 }
 
-/* .theme-light .page {
- Вам также нужно будет написать ряд подобных селекторов
-} */
-
-.theme-light .section_title {
-  color: var(--text-color);
-}
-
-.theme-light .title-decor {
-  color: var(--text-color);
-}
-
 .theme-light .decoration_element::after {
   display: none;
-  /* background-color: transparent; */
-  /* box-shadow: none; */
 }
 
 .theme-light .decoration_element::before {
   display: none;
-  /* color: transparent; */
 }
 
-.theme-light .header__theme-menu-button {
-  color: var(--main-text-color);
-}
-
-.theme-light .header__theme-menu-button_active {
+/* .theme-light .header__theme-menu-button_active {
   border: 1px var(--main-text-color) solid;
-  pointer-events: none;
-}
-
-.theme-light .header__theme-menu-button:hover {
-  border: 1px #32312D40 solid;
-  /* как задать прозрачность цвету в переменной? */
-}
+} */
 
 @media (prefers-color-scheme: light) {
   :root {
     --main-text-color: #353430;
+    --support-color: #353430;
     --accent-color: #FF8DCB;
+    --outline-button-color: #32312D40;
+    --accent-text-color: #353430;
     --bg-color: #FFF1F7;
     --title-color: #FFC2E6;
     --path-to-image: url("../images/cover-image-light.png");
+  }
+
+  .theme-auto .decoration_element::after {
+    display: none;
+  }
+  
+  .theme-auto .decoration_element::before {
+    display: none;
   }
 }
