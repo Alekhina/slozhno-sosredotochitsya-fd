@@ -58,7 +58,7 @@
 .header__theme-menu-button:focus-visible {
   border: none;
   /* text-decoration: underline; */
-  border-bottom: 1px solid var(--main-text-color);
+  border-bottom: 1px solid var(--support-color);
   outline: 1px transparent solid;
 }
 
